@@ -5,19 +5,26 @@
 
 ## installation 
 
-Git clone this repo.
+### 1. Git clone this repo
+```git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git```
 
+### 2. cd into ComfyUI folder 
+```cd ComfyUI```
+
+### 3. download and copy your models and vae into 
 Put your SD checkpoints (the huge ckpt/safetensors files) in: models/checkpoints
 
 Put your VAE in: models/vae
 
-### 1. install torch 
+### 4. create a virtual environment
+```python -m venv venv```
 
+### 5. install torch 
 ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu```
 
 And install it again with the command above.
 
-### 2. install Dependencies
+### 6. install Dependencies
 
 Install the dependencies by opening your terminal inside the ComfyUI folder and:
 
@@ -25,8 +32,7 @@ Install the dependencies by opening your terminal inside the ComfyUI folder and:
 
 After this you should have everything installed and can proceed to running ComfyUI.
 
-# 3. cd into ComfyUI folder then Run
-
+### 7. in ComfyUI folder then Run
 ```python main.py --cpu --cpu-vae```
 
 ## Shortcuts
