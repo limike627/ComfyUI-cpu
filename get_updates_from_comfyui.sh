@@ -1,20 +1,27 @@
 #!/bin/bash
 
 # Step 1: Define the upstream repository and branch
-UPSTREAM_REPO="https://github.com/comfyanonymous/ComfyUI.git"
+UPSTREAM_REPO="upstream"
+UPSTREAM_URL="https://github.com/comfyanonymous/ComfyUI.git"
 UPSTREAM_BRANCH="master"  # Likely 'master' instead of 'main'
 
-git remote add upstream $UPSTREAM_REPO
+# Check if the upstream remote already exists, if not add it
+if git remote | grep -q $UPSTREAM_REPO; then
+    echo "Upstream remote already exists."
+else
+    echo "Adding upstream remote..."
+    git remote add $UPSTREAM_REPO $UPSTREAM_URL
+fi
 
-# Step 2: Fetch latest changes from the upstream repository
-echo "Fetching latest changes from $UPSTREAM_REPO..."
+# Step 2: Fetch the latest changes from the upstream repository
+echo "Fetching latest changes from $UPSTREAM_URL..."
 git fetch $UPSTREAM_REPO $UPSTREAM_BRANCH
 
 # Step 3: List all files you have modified or added in your fork
 echo "Listing files modified or added in your fork..."
 CHANGED_FILES=$(git diff --name-only origin/master)
 
-# Step 4: Checkout the upstream branch without committing
+# Step 4: Merge upstream changes without committing, keeping local changes
 echo "Merging upstream changes while keeping your changes intact..."
 git merge $UPSTREAM_REPO/$UPSTREAM_BRANCH --no-commit --no-ff
 
@@ -24,9 +31,13 @@ for file in $CHANGED_FILES; do
     git restore --staged $file
 done
 
-# Step 6: Commit the changes
-echo "Committing merged changes..."
-git commit -m "Merged upstream changes from $UPSTREAM_REPO and kept local modifications"
+# Step 6: Commit the changes if the merge was successful
+if git diff --cached --quiet; then
+    echo "No changes to commit."
+else
+    echo "Committing merged changes..."
+    git commit -m "Merged upstream changes from $UPSTREAM_REPO and kept local modifications"
+fi
 
 # Step 7: Push the changes to your fork
 echo "Pushing changes to your fork..."
