@@ -18,7 +18,7 @@ Put your VAE in: models/vae
 
 ### 4. create a virtual environment
 ```python -m venv venv```
-
+```source venv/bin/activate```
 ### 5. install torch 
 ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu```
 
