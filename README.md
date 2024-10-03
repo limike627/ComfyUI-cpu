@@ -25,9 +25,7 @@
 
 Recommended for SD1.5 LCM since cpus are very slow compared to gpus. 
 
-Put your SD checkpoints (the huge ckpt/safetensors files) in: models/checkpoints
-
-Put your VAE in: models/vae
+Download models, lora, and workflow
 
 ### 4. create a virtual environment
 ```python -m venv venv```
