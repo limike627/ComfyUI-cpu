@@ -3,7 +3,7 @@
 # ComfyUI-cpu
 **trimmed down version of ComfyUI that only uses the cpu. The most powerful and modular diffusion model GUI and backend.**
 
-## Manual Install (Windows, Linux)
+## installation 
 
 Git clone this repo.
 
@@ -11,19 +11,13 @@ Put your SD checkpoints (the huge ckpt/safetensors files) in: models/checkpoints
 
 Put your VAE in: models/vae
 
-### CPU only install 
+### 1. install torch 
 
 ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu```
 
-#### Troubleshooting
-
-If you get the "Torch not compiled with CUDA enabled" error, uninstall torch with:
-
-```pip uninstall torch```
-
 And install it again with the command above.
 
-### Dependencies
+### 2. install Dependencies
 
 Install the dependencies by opening your terminal inside the ComfyUI folder and:
 
@@ -31,7 +25,7 @@ Install the dependencies by opening your terminal inside the ComfyUI folder and:
 
 After this you should have everything installed and can proceed to running ComfyUI.
 
-# Running
+# 3. cd into ComfyUI folder then Run
 
 ```python main.py --cpu --cpu-vae```
 
