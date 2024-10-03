@@ -25,7 +25,7 @@
 
 Recommended for SD1.5 LCM since cpus are very slow compared to gpus. 
 
-Download models, lora, and workflow
+[Download SD1.5 LCM models, lora, and workflow for ComfyUI-cpu](https://ko-fi.com/s/c66251b736)
 
 ### 4. create a virtual environment
 ```python -m venv venv```
