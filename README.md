@@ -22,6 +22,9 @@
 ```cd ComfyUI```
 
 ### 3. download and copy your models and vae into 
+
+Recommended for SD1.5 LCM since cpus are very slow compared to gpus. 
+
 Put your SD checkpoints (the huge ckpt/safetensors files) in: models/checkpoints
 
 Put your VAE in: models/vae
