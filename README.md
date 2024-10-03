@@ -9,7 +9,7 @@
 ```git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git```
 
 ### 2. cd into ComfyUI folder 
-```cd ComfyUI```
+```cd ComfyUI-cpu```
 
 ### 3. download and copy your models and vae into 
 Put your SD checkpoints (the huge ckpt/safetensors files) in: models/checkpoints
