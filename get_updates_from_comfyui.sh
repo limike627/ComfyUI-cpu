@@ -2,7 +2,7 @@
 
 # Step 1: Define the upstream repository and branch
 UPSTREAM_REPO="https://github.com/comfyanonymous/ComfyUI.git"
-UPSTREAM_BRANCH="main"
+UPSTREAM_BRANCH="master"  # Likely 'master' instead of 'main'
 
 # Step 2: Fetch latest changes from the upstream repository
 echo "Fetching latest changes from $UPSTREAM_REPO..."
@@ -10,7 +10,7 @@ git fetch $UPSTREAM_REPO $UPSTREAM_BRANCH
 
 # Step 3: List all files you have modified or added in your fork
 echo "Listing files modified or added in your fork..."
-CHANGED_FILES=$(git diff --name-only origin/main)
+CHANGED_FILES=$(git diff --name-only origin/master)
 
 # Step 4: Checkout the upstream branch without committing
 echo "Merging upstream changes while keeping your changes intact..."
@@ -28,6 +28,6 @@ git commit -m "Merged upstream changes from $UPSTREAM_REPO and kept local modifi
 
 # Step 7: Push the changes to your fork
 echo "Pushing changes to your fork..."
-git push origin main
+git push origin master  # Push to 'master', change if you're using another branch
 
 echo "Update completed!"
