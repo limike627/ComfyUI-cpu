@@ -21,4 +21,4 @@ venv/
 *.log
 web_custom_versions/
 .DS_Store
-get_updates_from_comfyui.sh
+/get_updates_from_comfyui.sh
