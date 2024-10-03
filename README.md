@@ -1,9 +1,16 @@
-<div align="center">
+<div align="left">
 
 # ComfyUI-cpu
 **trimmed down version of ComfyUI that only uses the cpu. The most powerful and modular diffusion model GUI and backend.**
+## Fast installation 
 
-## installation 
+```git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git```
+
+```cd ComfyUI-cpu```
+
+```./install_comfyui-cpu.sh```
+
+## Manual installation 
 
 ### 1. Git clone this repo
 ```git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git```
@@ -37,6 +44,7 @@ After this you should have everything installed and can proceed to running Comfy
 
 ### 8. open it in your browser
 ```http://localhost:8188```
+</div>
 
 ## Shortcuts
 
