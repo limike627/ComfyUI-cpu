@@ -10,6 +10,9 @@
 
 ```./install_comfyui-cpu.sh```
 
+### once installed then you can cd into comfyui-cpu and run the following to start:
+```./start_comfyui-cpu.sh```
+
 ## Manual installation 
 
 ### 1. Git clone this repo
