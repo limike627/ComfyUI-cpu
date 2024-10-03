@@ -23,7 +23,7 @@
 
 ### 3. download and copy your models and vae into 
 
-Recommended for SD1.5 LCM since cpus are very slow compared to gpus. 
+Recommended for SD1.5 LCM for 3-step generation and good images download the below workflow and models. 
 
 [Download SD1.5 LCM models, lora, and workflow for ComfyUI-cpu](https://ko-fi.com/s/c66251b736)
 
