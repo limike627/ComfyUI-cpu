@@ -4,6 +4,8 @@
 UPSTREAM_REPO="https://github.com/comfyanonymous/ComfyUI.git"
 UPSTREAM_BRANCH="master"  # Likely 'master' instead of 'main'
 
+git remote add upstream $UPSTREAM_REPO
+
 # Step 2: Fetch latest changes from the upstream repository
 echo "Fetching latest changes from $UPSTREAM_REPO..."
 git fetch $UPSTREAM_REPO $UPSTREAM_BRANCH
