@@ -36,7 +36,7 @@ After this you should have everything installed and can proceed to running Comfy
 ```python main.py --cpu --cpu-vae```
 
 ### 8. open it in your browser
-```[http://localhost:88188](http://localhost:8188/)```
+```http://localhost:8188```
 
 ## Shortcuts
 
