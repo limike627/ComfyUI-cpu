@@ -1,7 +1,7 @@
 <div align="center">
 
 # ComfyUI-cpu
-**trimmed down version of ComfyUI that only uses the cpu. The most powerful and modular diffusion model GUI and backend.**
+**ComfyUI-cpu is a trimmed down version of ComfyUI that only uses the cpu. i needed this for my projects so though someone else will benefit from it. recommended with SD1.5 LCM text to image generation. The most powerful and modular diffusion model GUI and backend.**
 
 ## installation 
 
