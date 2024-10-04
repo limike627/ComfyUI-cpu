@@ -76,7 +76,7 @@ https://gitforwindows.org/
 
 3. Follow the installation wizard instructions
 
-4. During the installation process, you can choose the components you want to install. Make sure to select "Git Bash Here" option if you want the context menu integratio
+4. During the installation process, you can choose the components you want to install. Make sure to select "Git Bash Here" option if you want the context menu integratios.
 
 5. Complete the installation by following the on-screen instructions
 
