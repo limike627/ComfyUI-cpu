@@ -3,6 +3,7 @@
 # ComfyUI-cpu
 **ComfyUI-cpu is a trimmed down version of ComfyUI that only uses the cpu. I needed to run comfyui on cpu only device so I created this fork of ComfyUI optimized for cpu usage. The most powerful and modular diffusion model GUI and backend.**
 ## Fast installation 
+### includes comfyui manager
 
 ```git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git```
 
