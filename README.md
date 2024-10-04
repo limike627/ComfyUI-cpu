@@ -1,7 +1,15 @@
 <div align="left">
 
 # ComfyUI-cpu
-**ComfyUI-cpu is a trimmed down version of ComfyUI that only uses the cpu. I needed to run comfyui on cpu only device so I created this fork of ComfyUI optimized for cpu usage. The most powerful and modular diffusion model GUI and backend.**
+**ComfyUI-cpu is a trimmed down version of ComfyUI that only uses the cpu. I hope someone finds this useful. I needed to run comfyui on cpu only device so I created this fork of ComfyUI optimized for cpu usage. The most powerful and modular diffusion model GUI and backend.**
+
+## Use Cases:
+Any Computer with a cpu and ram.
+### cpu only web server
+### laptop with no gpu
+### older PCs
+### weak onboard gpus
+
 ## Fast installation 
 ### includes comfyui manager
 
