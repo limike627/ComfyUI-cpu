@@ -33,7 +33,7 @@ Any Computer with a cpu and ram.
 ### 3. download and copy your models and vae into 
 
 Recommended for SD1.5 LCM for 3-step generation and good images download the below workflow and models you can replace the sgm-uniform with lcm scheduler for faster generations. 
-
+You can download the needed models and workflow from here or in any other place. I just added them for easier download.
 [Download SD1.5 LCM models, lora, and workflow for ComfyUI-cpu](https://ko-fi.com/s/c66251b736)
 
 ### 4. create a virtual environment
