@@ -5,10 +5,14 @@
 
 ## Use Cases:
 Any Computer with a cpu and ram.
-### cpu only web server
-### laptop with no gpu
-### older PCs
-### weak onboard gpus
+
+-- cpu only web server
+
+--laptop with no gpu
+
+-- older PCs
+
+-- weak onboard gpus
 
 ## Fast installation 
 ### includes comfyui manager
