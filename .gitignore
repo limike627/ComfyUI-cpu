@@ -22,3 +22,5 @@ venv/
 web_custom_versions/
 .DS_Store
 /get_updates_from_comfyui.sh
+/models/
+/custom_nodes/
