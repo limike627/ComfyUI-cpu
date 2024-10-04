@@ -14,7 +14,7 @@ Any Computer with a cpu and ram.
 
 -- weak onboard gpus
 
-## Fast installation 
+## Fast installation (Linux and MacOS for windows see below instructions)
 ### includes comfyui manager
 
 ```git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git```
@@ -61,6 +61,24 @@ After this you should have everything installed and can proceed to running Comfy
 
 ### 8. open it in your browser
 ```http://localhost:8188```
+
+## Windows installation:
+
+### require installing Git Bash on Windows then run the above instructions:
+
+### 1. Download Git for Windows from the official website:
+https://gitforwindows.org/
+
+### 2. Run the downloaded installation file
+
+### 3. Follow the installation wizard instructions
+
+### 4. During the installation process, you can choose the components you want to install. Make sure to select "Git Bash Here" option if you want the context menu integratio
+
+### 5. Complete the installation by following the on-screen instructions
+
+### 6. After the installation is complete, you can launch Git Bash by searching for it in the Windows search bar.
+Once Git Bash is installed, you can use it to run Git commands and execute shell scripts on your Windows system.
 </div>
 
 ## Shortcuts
