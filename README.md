@@ -8,7 +8,7 @@ Any Computer with a cpu and ram.
 
 -- cpu only web server
 
---laptop with no gpu
+-- laptop with no gpu
 
 -- older PCs
 
