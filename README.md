@@ -23,7 +23,7 @@ Any Computer with a cpu and ram.
 
 ```./install_comfyui-cpu.sh```
 
-### once installed then you can cd into comfyui-cpu and run the following to start:
+### once installed then run the following to start:
 ```./start_comfyui-cpu.sh```
 
 ## Manual installation 
