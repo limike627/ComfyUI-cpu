@@ -13,6 +13,9 @@ Any Computer with a cpu and ram.
 -- older PCs
 
 -- weak onboard gpus
+## Docker install 
+
+```docker pull ardenius/comfyui-cpu```
 
 ## Fast installation 
 
