@@ -47,7 +47,7 @@ You can download the needed models and workflow from here or in any other place.
 ```python3 -m venv venv```
 
 ### 5. install torch 
-```pip3 install torch==2.4.1+cpu torchvision==0.19.1+cpu torchaudio==2.4.1+cpu--index-url https://download.pytorch.org/whl/cpu```
+```pip3 install torch==2.4.1+cpu torchvision==0.19.1+cpu torchaudio==2.4.1+cpu --index-url https://download.pytorch.org/whl/cpu```
 
 And install it again with the command above.
 
