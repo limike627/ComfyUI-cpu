@@ -31,10 +31,7 @@ sentencepiece==0.2.0
 spandrel==0.4.0
 sympy==1.12
 tokenizers==0.20.0
-torch==2.4.1+cpu
-torchaudio==2.4.1+cpu
 torchsde==0.2.6
-torchvision==0.19.1+cpu
 tqdm==4.66.5
 trampoline==0.1.2
 transformers==4.45.1
