@@ -44,10 +44,10 @@ You can download the needed models and workflow from here or in any other place.
 [Download SD1.5 LCM models, lora, and workflow for ComfyUI-cpu](https://ko-fi.com/s/c66251b736)
 
 ### 4. create a virtual environment
-```python -m venv venv```
+```python3 -m venv venv```
 
 ### 5. install torch 
-```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu```
+```pip3 install torch==2.4.1+cpu torchvision==0.19.1+cpu torchaudio==2.4.1+cpu--index-url https://download.pytorch.org/whl/cpu```
 
 And install it again with the command above.
 
@@ -55,12 +55,12 @@ And install it again with the command above.
 
 Install the dependencies by opening your terminal inside the ComfyUI folder and:
 
-```pip install -r requirements.txt```
+```pip3 install -r requirements.txt```
 
 After this you should have everything installed and can proceed to running ComfyUI.
 
 ### 7. in ComfyUI folder then Run
-```python main.py --cpu --cpu-vae```
+```python3 main.py --cpu --cpu-vae --auto-launch```
 
 ### 8. open it in your browser
 ```http://localhost:8188```
