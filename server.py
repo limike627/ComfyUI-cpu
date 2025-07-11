@@ -44,7 +44,7 @@ async def send_socket_catch_exception(function, message):
         logging.warning("send error: {}".format(err))
 
 def get_comfyui_version():
-    comfyui_version = "unknown"
+    comfyui_version = "0.2.12"
     repo_path = os.path.dirname(os.path.realpath(__file__))
     try:
         import pygit2
